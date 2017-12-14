@@ -20,13 +20,24 @@ $(document).ready(function(){
   });
 
 
-//zoom img
+//efecto zoom img
 
     $('.zoom').hover(function() {
         $(this).addClass('transition');
     }, function() {
         $(this).removeClass('transition');
     });
+
+
+
+/*-------------Modal---------------------*/
+
+    $('#open').click(function(){
+        $('.modal').toggle('slow');
+    });
+    $('.modal').click(function(){
+      $(this).css({display:"none"});
+    });
+  
+
 });
-
-
