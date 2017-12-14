@@ -1,0 +1,141 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color:#000;
+	
+	}
+.row, .col-{
+	margin:0;
+	padding: 0;
+
+}
+}
+.container-fluid{
+	padding: 0;
+}
+
+#splash{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#000;
+    color:#D07F33;
+    z-index: 2;
+}
+
+#splash h1{
+	margin-top: 40vh;
+	font-weight: 300;
+}
+
+#foodmap{
+	background-color: #000;
+	color:#D07F33;
+	margin:0;
+}
+#foodmap h2{
+	margin-top: 0;
+	padding-top: 30px;
+	font-size: 400%;
+	font-weight: 300;
+
+}
+
+
+.border-title {
+    padding-bottom: 10px;
+    margin: 40px 0 20px;
+    border-bottom: 3px solid #fff;
+    z-index: 2;
+    }
+/*imagen MAPA RESTAURANT*/
+
+.map-restaurant{
+	background-color: #000; 
+		color:#D07F33;
+
+}
+.map{
+	width: 32em;
+	height: 20em;
+	margin: 0;
+	padding-top: 2em;
+	padding-bottom:2em;
+
+}
+
+
+/* SECCION FILTRO RESTAURANT*/
+
+.img-restaurant{
+	padding: 5%;
+}
+.filter{
+	width: 270px;
+
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 1% 1%;
+    margin-bottom: -1px;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.imgFood{
+	
+	display: inline-block;
+	opacity: 0.5;
+	
+}
+
+#myList h3{
+	color: #fff;
+	font-size: 3vh; /*30% la altura del dispositivo*/
+/* o también*/
+font-size: 3vw; /*30% el ancho del dispositivo*/
+	padding-left: 2%
+}
+
+.space{
+	padding: 0.1%;
+}
+
+//efecto ZOOM
+img.zoom {
+    width: 150px;
+    height: 100px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.titleFood{
+	position: absolute;
+	color: #FFFFFF;
+	font-size: 4vh; /*30% la altura del dispositivo*/
+/* o también*/
+	font-size: 4vw; /*30% el ancho del dispositivo*/
+	padding-left: 5%;
+	padding-top:0%;
+}
+.nameRestaurant{
+	position: absolute;
+	color: #FFFFFF;
+	font-size: 2vh; 
+	font-size: 2vw;
+	padding-left: 4%;
+	margin: 20px 0px;
+    padding-top: 30%;
+}
